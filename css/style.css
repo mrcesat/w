@@ -1,3 +1,7 @@
+:root {
+    --bg-color: #1a1a1a; /* Основной цвет фона сайта */
+}
+
 /* =========================================
    SPLIT PAGE LAYOUT (INDEX-V4)
    ========================================= */
@@ -6,7 +10,7 @@
     display: flex;
     height: 100vh;
     overflow: hidden;
-    background-color: #000000;
+    background-color: var(--bg-color);
     color: #ffffff;
     font-family: 'Inter', sans-serif;
 }
@@ -26,7 +30,7 @@
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #000000;
+    background: var(--bg-color);
     flex-shrink: 0;
     border-right: 2px solid #ffffff !important;
 
@@ -261,7 +265,7 @@
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #000000;
+    background: var(--bg-color);
 
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -283,7 +287,7 @@
     overflow: hidden;
     white-space: nowrap;
     border-bottom: 2px solid #ffffff;
-    background: #000000;
+    background: var(--bg-color);
     position: relative;
 }
 
@@ -330,7 +334,7 @@
 }
 
 .project-content-link:hover {
-    background: #111111; /* Фон становится белым */
+    background: var(--bg-color); /* Фон становится белым */
 }
 
 .project-content-link:hover .project-description p {
@@ -396,7 +400,7 @@
     display: flex;
     width: 100%;
     border-bottom: 2px solid #ffffff !important;
-    background: #000000;
+    background: var(--bg-color);
     /* ✅ Убрано position: sticky — теперь прокручивается вместе с контентом */
 }
 
@@ -435,7 +439,7 @@
 
 .switcher-link:hover {
     color: #bc6c15;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-color);
 }
 
 .switcher-link.active {
@@ -475,7 +479,7 @@
     position: fixed;
     top: 24px;
     right: 24px;
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--bg-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #ffffff;
     padding: 8px 16px;
@@ -561,7 +565,7 @@
 .project-description-block {
     width: 100%;
     height: 100%;
-    background: #000000;
+    background: var(--bg-color);
     overflow: hidden;
     position: relative;
     border-left: 2px solid #ffffff;  /* ← ДОБАВИТЬ ЭТО */
@@ -570,7 +574,7 @@
 .project-description-view {
     display: flex;
     flex-direction: column;
-    background: #000000;
+    background: var(--bg-color);
     height: 100%; /* Растягиваем на всю высоту родителя (.project-description-block) */
     overflow-y: auto; /* Включаем вертикальную прокрутку */
     scrollbar-width: thin; /* Тонкий скроллбар для Firefox */
@@ -601,7 +605,7 @@
     width: 6px;
 }
 .project-description-view::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-color);
 }
 .project-description-view::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.3);
@@ -753,7 +757,7 @@
    ========================================= */
 
 .project-media-player.media-fit-cover {
-    background: #000000; /* Чёрный фон вместо цветного */
+    background: transparent; /* Чёрный фон вместо цветного */
 }
 
 .project-media-player.media-fit-cover .media-stage {
@@ -793,7 +797,7 @@
    ========================================= */
 
 .project-media-player.media-fit-grid {
-    background: #000000;
+    background: transparent;
     position: relative;
 }
 
@@ -846,7 +850,7 @@
     pointer-events: auto !important;
     cursor: pointer;
     display: block !important;
-    background: #000000; /* Чёрный фон для ячеек */
+    background: var(--bg-color); /* Чёрный фон для ячеек */
     border: none;
     overflow: hidden;
     transition: opacity 0.3s ease;
@@ -1018,7 +1022,7 @@
 }
 
 .workflow-block-content {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-color);
     border: 1px solid #ffffff;  /* ✅ Белая обводка */
     border-radius: 0px;
     padding: 16px;
@@ -1026,7 +1030,7 @@
 }
 
 .workflow-block:hover .workflow-block-content {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--bg-color);
     border-color: #ffffff;
     transform: translateX(4px);
 }
@@ -1139,7 +1143,7 @@
         position: sticky;
         top: 0;
         z-index: 100;
-        background: #000000;
+        background: var(--bg-color);
         flex-direction: row !important;
         flex-wrap: nowrap !important;
         overflow-x: auto;
@@ -1416,7 +1420,7 @@
     padding: 40px 20px;
     text-align: center;
     font-family: 'Inter', -apple-system, sans-serif;
-    background-color: #000000; /* ← ДОБАВИТЬ ЭТО */ /* ← И ЭТО для надёжности */
+    background-color: var(--bg-color); /* ← ДОБАВИТЬ ЭТО */ /* ← И ЭТО для надёжности */
 }
 
 /* Аватар */
@@ -1461,7 +1465,7 @@
     align-items: center;
     justify-content: center;
     padding: 18px 24px;
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--bg-color);
     color: #fff;
     text-decoration: none;
     border-radius: 16px;
@@ -1498,7 +1502,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-color);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     color: #fff;
