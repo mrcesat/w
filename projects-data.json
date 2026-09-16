@@ -21,7 +21,7 @@
         { "step": 3, "title": "3D моделирование", "description": "Blender + Substance" },
         { "step": 4, "title": "Рендеринг", "description": "Финальная обработка" }
       ],
-      "playerHeight": 600,
+      "playerHeight": 400,
       "mediaMode": "grid",
       "media": [
         { "type": "video", "src": "cases/20263DM/³дм2026октдек.mp4", "alt": "img" },
