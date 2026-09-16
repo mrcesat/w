@@ -24,9 +24,8 @@
       "playerHeight": 600,
       "mediaMode": "grid",
       "media": [
-        { "type": "img", "src": "cases/20263DM/preview.jpg", "alt": "img" },
         { "type": "video", "src": "cases/20263DM/³дм2026октдек.mp4", "alt": "img" },
-        { "type": "video", "src": "cases/20263DM/0001-0871.mp4", "alt": "img" }
+        { "type": "img", "src": "cases/20263DM/preview.jpg", "alt": "img" }
       ]
     },
     {
@@ -55,7 +54,7 @@
       "role": "Куратор, фотограф",
       "categories": ["curatorial", "photo"],
       "playerHeight": 500,
-      "mediaMode": "grid",
+      "mediaMode": "cover",
       "media": [
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (2).jpg", "alt": "Сквозь Тернии 1" },
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" },
