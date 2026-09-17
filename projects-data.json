@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "livefrommor",
+      "title": "Серия live-концертов «MOR»",
+      "link": "cases/project-LiveFromMor.html",
+      "description": "Организация и съёмка серии выступлений исполнителей Поволжья.\n\nПродюсер: Григорий Банщиков",
+      "role": "Визионер, видеограф, монтажёр, декоратор",
+      "categories": ["creative", "photo"],
+      "soft": ["Touchdesigner", "Figma", "DaVinci Resolve"],
+      "playerHeight": 450,
+      "mediaMode": "cover",
+      "media": [
+        { "type": "video", "src": "cases/2024livefrommor/mor_preview0001-0240.mp4", "alt": "video" }
+      ]
+    },
+    {
       "id": "middle-notes",
       "title": "Клуб «Middle Notes»: Морфология запаха",
       "link": "cases/project-middle-notes.html",
@@ -47,20 +61,6 @@
       ]
     },
     {
-      "id": "livefrommor",
-      "title": "Серия live-концертов «MOR»",
-      "link": "cases/project-LiveFromMor.html",
-      "description": "Организация и съёмка серии выступлений исполнителей Поволжья.\n\nПродюсер: Григорий Банщиков",
-      "role": "Визионер, видеограф, монтажёр, декоратор",
-      "categories": ["creative", "photo"],
-      "soft": ["Touchdesigner", "Figma", "DaVinci Resolve"],
-      "playerHeight": 450,
-      "mediaMode": "cover",
-      "media": [
-        { "type": "video", "src": "cases/2024livefrommor/mor_preview0001-0240.mp4", "alt": "video" }
-      ]
-    },
-    {
       "id": "svoxternii",
       "title": "Курирование выставки «Сквозь Тернии» Last Unicorn",
       "link": "cases/project-svoxternii.html",
@@ -74,6 +74,26 @@
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" },
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (10).jpg", "alt": "Сквозь Тернии 1" },
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (11).jpg", "alt": "Сквозь Тернии 1" }
+      ]
+    },
+    {
+      "id": "eg10",
+      "title": "Фото: ethereal grooves 10 years anniversary",
+      "link": "cases/project-eg10.html",
+      "description": "Москва, Fabula 26 сентября 2025",
+      "role": "Фотограф",
+      "categories": ["photo"],
+      "playerHeight": 500,
+      "mediaMode": "cover",
+      "media": [
+        { "type": "img", "src": "cases/2025eg10/eg10_(1).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(2).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(3).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(4).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(5).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(6).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(7).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(8).jpg", "alt": "img" }
       ]
     },
     {
