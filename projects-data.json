@@ -63,6 +63,24 @@
       ]
     },
     {
+      "id": "models3d",
+      "title": "[3D] Визуализация и 3D-моделирование",
+      "link": "cases/project-models3d.html",
+      "description": "Москва, Fabula 26 сентября 2025",
+      "role": "Фотограф",
+      "categories": ["photo"],
+      "playerHeight": 500,
+      "mediaMode": "cover",
+      "media": [
+        { "type": "img", "src": "cases/2026models3D/model1_(2).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2026models3D/model1_(4).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2026models3D/model2_(1).jpg", "alt": "img" },
+        { "type": "video", "src": "cases/2026models3D/model1_vid.mp4", "alt": "video" },
+        { "type": "img", "src": "cases/2026models3D/model3_(1).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2026models3D/model2_(3).jpg", "alt": "img" }
+      ]
+    },
+    {
       "id": "middle-notes",
       "title": "[Курирование] Клуб «Middle Notes»: Морфология запаха",
       "link": "cases/project-middle-notes.html",
