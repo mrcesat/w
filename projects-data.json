@@ -51,8 +51,9 @@
       "title": "Серия live-концертов «MOR»",
       "link": "cases/project-LiveFromMor.html",
       "description": "Организация и съёмка серии выступлений исполнителей Поволжья.\n\nПродюсер: Григорий Банщиков",
-      "role": "Визионер, видеограф, монтажёр и декоратор",
+      "role": "Визионер, видеограф, монтажёр, декоратор",
       "categories": ["creative", "photo"],
+      "soft": ["Touchdesigner", "Figma", "DaVinci Resolve"],
       "playerHeight": 450,
       "mediaMode": "cover",
       "media": [
