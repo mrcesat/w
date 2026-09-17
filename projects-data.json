@@ -107,22 +107,6 @@
       "media": [
         { "type": "img", "src": "cases/2024laskaonkama/laska2024_(1).jpg", "alt": "Ласка на Каме" }
       ]
-    },
-    {
-      "id": "izhartres",
-      "title": "Ижевская Арт-резиденция: разработка ребрендинга (2026)",
-      "link": "cases/project-IzhArtres.html",
-      "description": "Разработка новых макетов для мероприятий, а также визуальной айдентики и брендбука Ижевской Арт-резиденции.",
-      "role": "Дизайнер",
-      "categories": ["graphic"],
-      "playerHeight": 600,
-      "mediaMode": "grid",
-      "media": [
-        { "type": "img", "src": "cases/2026IzhResidence/ar (5).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2026IzhResidence/plen (1).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2026IzhResidence/ar (3).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2026IzhResidence/plen (3).jpg", "alt": "img" }
-      ]
     }
   ]
 }
