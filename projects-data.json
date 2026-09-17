@@ -11,7 +11,7 @@
       "id": "³дм",
       "title": "«³д Мастерская» CGI и 3D-печати",
       "link": "cases/project-3dm.html",
-      "description": "Разработка дизайна и программы курсов обучения 3D-графике и визуализации, где студенты создают свои проекты и получают обратную связь.\nВключает программу обучения и свободное посещения с печатью прототипов.",
+      "description": "Разработка дизайна и программы курсов обучения 3D-графике и визуализации, где студенты создают свои проекты и получают обратную связь.\n\nВключает программу обучения и свободное посещения с печатью прототипов.",
       "role": "Граф. дизайнер, куратор, преподаватель",
       "categories": ["graphic"],
       "soft": ["Touchdesigner", "Figma", "Adobe Photoshop", "Nano Banana Pro 2"],
@@ -47,22 +47,6 @@
       ]
     },
     {
-      "id": "svoxternii",
-      "title": "Курирование выставки «Сквозь Тернии» Last Unicorn",
-      "link": "cases/project-svoxternii.html",
-      "description": "’Сквозь Тернии’ — Полина Новорождённая\n22 декабря 2023 — 19 января 2024.",
-      "role": "Куратор, фотограф",
-      "categories": ["curatorial", "photo"],
-      "playerHeight": 500,
-      "mediaMode": "cover",
-      "media": [
-        { "type": "img", "src": "cases/2023svoxternii/svoxternii (2).jpg", "alt": "Сквозь Тернии 1" },
-        { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" },
-        { "type": "img", "src": "cases/2023svoxternii/svoxternii (10).jpg", "alt": "Сквозь Тернии 1" },
-        { "type": "img", "src": "cases/2023svoxternii/svoxternii (11).jpg", "alt": "Сквозь Тернии 1" }
-      ]
-    },
-    {
       "id": "livefrommor",
       "title": "Серия live-концертов «MOR»",
       "link": "cases/project-LiveFromMor.html",
@@ -76,10 +60,26 @@
       ]
     },
     {
+      "id": "svoxternii",
+      "title": "Курирование выставки «Сквозь Тернии» Last Unicorn",
+      "link": "cases/project-svoxternii.html",
+      "description": "’Сквозь Тернии’ — Полина Новорождённая\n\n22 декабря 2023 — 19 января 2024",
+      "role": "Куратор, фотограф",
+      "categories": ["curatorial", "photo"],
+      "playerHeight": 500,
+      "mediaMode": "cover",
+      "media": [
+        { "type": "img", "src": "cases/2023svoxternii/svoxternii (2).jpg", "alt": "Сквозь Тернии 1" },
+        { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" },
+        { "type": "img", "src": "cases/2023svoxternii/svoxternii (10).jpg", "alt": "Сквозь Тернии 1" },
+        { "type": "img", "src": "cases/2023svoxternii/svoxternii (11).jpg", "alt": "Сквозь Тернии 1" }
+      ]
+    },
+    {
       "id": "LocalGigs20242025",
       "title": "Фото: ивенты иконцерты в Ижевске",
       "link": "cases/project-LocalGig.html",
-      "description": "Фотосъёмка локальных концертов в Ижевске и Удмуртии, 2024–2025.",
+      "description": "Фотосъёмка локальных концертов в Ижевске и Удмуртии\n\n2024–2025",
       "role": "Фотограф",
       "categories": ["photo"],
       "playerHeight": 500,
