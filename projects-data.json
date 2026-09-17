@@ -48,6 +48,7 @@
       "link": "cases/project-eg10.html",
       "description": "Москва, Fabula 26 сентября 2025",
       "role": "Фотограф",
+      "soft": ["Nikon D3200, видеосвет", "Lightroom", "Photoshop"],
       "categories": ["photo"],
       "playerHeight": 500,
       "mediaMode": "cover",
@@ -85,6 +86,7 @@
       "description": "Встречи Морфология запаха: Клуб «Middle Notes» Марины Рябцевой в рамках её дипломного проекта, 15–16 мая 2026:\n\nЛекции «История структурирования запаха» и «Попытки уловить запах», реконструкция игры Kodo, воркшопы «Визуальный анализ ароматов»",
       "role": "Куратор, фотограф",
       "categories": ["curatorial"],
+      "soft": ["Nikon D3200, видеосвет", "Lightroom", "Photoshop"],
       "playerHeight": 500,
       "mediaMode": "cover",
       "media": [
@@ -103,6 +105,7 @@
       "description": "’Сквозь Тернии’ — Полина Новорождённая\n\n22 декабря 2023 — 19 января 2024",
       "role": "Куратор, фотограф",
       "categories": ["curatorial", "photo"],
+      "soft": ["Nikon D3200, видеосвет", "Lightroom", "Photoshop"],
       "playerHeight": 500,
       "mediaMode": "cover",
       "media": [
@@ -118,6 +121,7 @@
       "description": "Фотосъёмка локальных концертов в Ижевске и Удмуртии\n\n2024–2025",
       "role": "Фотограф",
       "categories": ["photo"],
+      "soft": ["Nikon D3200, видеосвет", "Lightroom", "Photoshop"],
       "playerHeight": 500,
       "mediaMode": "grid",
       "media": [
@@ -138,6 +142,7 @@
       "description": "Фотосет Саши Артемьевой aka Ласка в преддверии премьеры лайва с синглом «Тону» на платформе «MOR».",
       "role": "Фотограф",
       "categories": ["photo"],
+      "soft": ["Nikon D3200, видеосвет", "Lightroom", "Photoshop"],
       "playerHeight": 450,
       "mediaMode": "cover",
       "media": [
