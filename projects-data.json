@@ -69,6 +69,7 @@
       "description": "Создание 3D-моделей и визуализация объектов для проектов, включая архитектурные макеты, прототипы и художественные концепты.",
       "role": "3D-художник",
       "categories": ["3D"],
+      "soft": ["Blender", "Substance Painter", "Gaea", "Unreal Engine"],
       "playerHeight": 500,
       "mediaMode": "container",
       "media": [
