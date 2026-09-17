@@ -122,7 +122,7 @@ async function renderProjectsList(activeCategory = null) {
                             <div class="player-zone player-zone-right" data-player-id="player-${index}"></div>
                         </div>
                         <div class="project-description">
-                            <p>${project.description}</p>
+                            <p>${project.description.replace(/\n/g, '<br>')}</p>
                             ${roleHtml}
                             ${softHtml}
                         </div>
