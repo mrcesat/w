@@ -43,6 +43,26 @@
       ]
     },
     {
+      "id": "eg10",
+      "title": "[Фото] ethereal grooves 10 years anniversary",
+      "link": "cases/project-eg10.html",
+      "description": "Москва, Fabula 26 сентября 2025",
+      "role": "Фотограф",
+      "categories": ["photo"],
+      "playerHeight": 500,
+      "mediaMode": "cover",
+      "media": [
+        { "type": "img", "src": "cases/2025eg10/eg10_(21).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(2).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(3).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(4).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(5).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(6).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(7).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(8).jpg", "alt": "img" }
+      ]
+    },
+    {
       "id": "middle-notes",
       "title": "[Курирование] Клуб «Middle Notes»: Морфология запаха",
       "link": "cases/project-middle-notes.html",
@@ -73,26 +93,6 @@
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (2).jpg", "alt": "Сквозь Тернии 1" },
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" },
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (11).jpg", "alt": "Сквозь Тернии 1" }
-      ]
-    },
-    {
-      "id": "eg10",
-      "title": "[Фото] ethereal grooves 10 years anniversary",
-      "link": "cases/project-eg10.html",
-      "description": "Москва, Fabula 26 сентября 2025",
-      "role": "Фотограф",
-      "categories": ["photo"],
-      "playerHeight": 500,
-      "mediaMode": "cover",
-      "media": [
-        { "type": "img", "src": "cases/2025eg10/eg10_(21).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2025eg10/eg10_(2).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2025eg10/eg10_(3).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2025eg10/eg10_(4).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2025eg10/eg10_(5).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2025eg10/eg10_(6).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2025eg10/eg10_(7).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/2025eg10/eg10_(8).jpg", "alt": "img" }
       ]
     },
     {
