@@ -63,19 +63,6 @@
       ]
     },
     {
-      "id": "laska",
-      "title": "Фотосет «Ласка» на Каме для серии live-концертов MOR",
-      "link": "cases/project-laskaKama.html",
-      "description": "Фотосет Саши Артемьевой aka Ласка в преддверии премьеры лайва с синглом «Тону» на платформе «MOR».",
-      "role": "Фотограф",
-      "categories": ["photo"],
-      "playerHeight": 450,
-      "mediaMode": "cover",
-      "media": [
-        { "type": "img", "src": "cases/2024laskaonkama/laska2024_(1).jpg", "alt": "Ласка на Каме" }
-      ]
-    },
-    {
       "id": "livefrommor",
       "title": "Серия live-концертов «MOR»",
       "link": "cases/project-LiveFromMor.html",
@@ -106,6 +93,19 @@
         { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (19).jpg", "alt": "img" },
         { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (3).jpg", "alt": "img" },
         { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (14).jpg", "alt": "img" }
+      ]
+    },
+    {
+      "id": "laska",
+      "title": "Фотосет «Ласка» на Каме для серии live-концертов MOR",
+      "link": "cases/project-laskaKama.html",
+      "description": "Фотосет Саши Артемьевой aka Ласка в преддверии премьеры лайва с синглом «Тону» на платформе «MOR».",
+      "role": "Фотограф",
+      "categories": ["photo"],
+      "playerHeight": 450,
+      "mediaMode": "cover",
+      "media": [
+        { "type": "img", "src": "cases/2024laskaonkama/laska2024_(1).jpg", "alt": "Ласка на Каме" }
       ]
     },
     {
