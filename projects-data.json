@@ -9,7 +9,7 @@
   "projects": [
     {
       "id": "³дм",
-      "title": "«³д Мастерская» CGI и 3D-печати",
+      "title": "[Проект] «³д Мастерская» CGI и 3D-печати",
       "link": "cases/project-3dm.html",
       "description": "Разработка дизайна и программы курсов обучения 3D-графике и визуализации, где студенты создают свои проекты и получают обратную связь.\n\nВключает программу обучения и свободное посещения с печатью прототипов.",
       "role": "Граф. дизайнер, куратор, преподаватель",
@@ -30,7 +30,7 @@
     },
     {
       "id": "livefrommor",
-      "title": "серия live-концертов «MOR»",
+      "title": "[Проект] Cерия live-концертов «MOR»",
       "link": "cases/project-LiveFromMor.html",
       "description": "Организация и съёмка серии выступлений исполнителей Поволжья.\n\nПродюсер: Григорий Банщиков",
       "role": "Визионер, видеограф, монтажёр, декоратор",
@@ -44,7 +44,7 @@
     },
     {
       "id": "middle-notes",
-      "title": "клуб «Middle Notes»: Морфология запаха",
+      "title": "[Курирование] Клуб «Middle Notes»: Морфология запаха",
       "link": "cases/project-middle-notes.html",
       "description": "Встречи Морфология запаха: Клуб «Middle Notes» Марины Рябцевой в рамках её дипломного проекта, 15–16 мая 2026:\n\nЛекции «История структурирования запаха» и «Попытки уловить запах», реконструкция игры Kodo, воркшопы «Визуальный анализ ароматов»",
       "role": "Куратор, фотограф",
@@ -62,7 +62,7 @@
     },
     {
       "id": "svoxternii",
-      "title": "курирование выставки «Сквозь Тернии» Last Unicorn",
+      "title": "[Курирование] выставки «Сквозь Тернии» Last Unicorn",
       "link": "cases/project-svoxternii.html",
       "description": "’Сквозь Тернии’ — Полина Новорождённая\n\n22 декабря 2023 — 19 января 2024",
       "role": "Куратор, фотограф",
@@ -72,13 +72,12 @@
       "media": [
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (2).jpg", "alt": "Сквозь Тернии 1" },
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" },
-        { "type": "img", "src": "cases/2023svoxternii/svoxternii (10).jpg", "alt": "Сквозь Тернии 1" },
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (11).jpg", "alt": "Сквозь Тернии 1" }
       ]
     },
     {
       "id": "eg10",
-      "title": "фото: ethereal grooves 10 years anniversary",
+      "title": "[Фото] ethereal grooves 10 years anniversary",
       "link": "cases/project-eg10.html",
       "description": "Москва, Fabula 26 сентября 2025",
       "role": "Фотограф",
@@ -86,7 +85,7 @@
       "playerHeight": 500,
       "mediaMode": "cover",
       "media": [
-        { "type": "img", "src": "cases/2025eg10/eg10_(1).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2025eg10/eg10_(21).jpg", "alt": "img" },
         { "type": "img", "src": "cases/2025eg10/eg10_(2).jpg", "alt": "img" },
         { "type": "img", "src": "cases/2025eg10/eg10_(3).jpg", "alt": "img" },
         { "type": "img", "src": "cases/2025eg10/eg10_(4).jpg", "alt": "img" },
@@ -98,7 +97,7 @@
     },
     {
       "id": "LocalGigs20242025",
-      "title": "фото: ивенты иконцерты в Ижевске",
+      "title": "[Фото] ивенты иконцерты в Ижевске",
       "link": "cases/project-LocalGig.html",
       "description": "Фотосъёмка локальных концертов в Ижевске и Удмуртии\n\n2024–2025",
       "role": "Фотограф",
@@ -118,7 +117,7 @@
     },
     {
       "id": "laska",
-      "title": "фотосет «Ласка» на Каме для серии live-концертов MOR",
+      "title": "[Фото] «Ласка» на Каме для серии live-концертов MOR",
       "link": "cases/project-laskaKama.html",
       "description": "Фотосет Саши Артемьевой aka Ласка в преддверии премьеры лайва с синглом «Тону» на платформе «MOR».",
       "role": "Фотограф",
