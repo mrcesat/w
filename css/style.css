@@ -1,5 +1,13 @@
 :root {
     --bg-color: #0c0c0c; /* Основной цвет фона сайта */
+    --main-font: "Pliant", sans-serif; /* ← ДОБАВИТЬ ЭТО */
+}
+
+/* Глобальное применение шрифта и его настроек ко всему сайту */
+body, .split-page, .linktree-page {
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
 }
 
 /* =========================================
