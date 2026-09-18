@@ -142,7 +142,7 @@
 }
 
 .role-list li {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4;
     color: #c8c8c8;
     padding: 4px 0;
@@ -209,7 +209,7 @@
     padding: 4px 0;
     color: #c8c8c8;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.0; /* ✅ Исправлено с 0.2, иначе текст накладывался друг на друга */
     transition: opacity 0.3s ease;
 }
