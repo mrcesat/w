@@ -142,7 +142,7 @@
 }
 
 .role-list li {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.4;
     color: #c8c8c8;
     padding: 4px 0;
@@ -1334,7 +1334,7 @@
 
     /* Описание ролей */
     .role-list li {
-        font-size: 12px !important; /* Было 14px */
+        font-size: 14px !important; /* Было 14px */
     }
 
     /* Заголовок секции (SELECTED WORKS) */
@@ -1344,7 +1344,7 @@
 
     /* Ссылки на проекты */
     .project-list-link {
-        font-size: 13px !important; /* Было 14px */
+        font-size: 14px !important; /* Было 14px */
     }
 
     /* Описание проекта */
