@@ -167,9 +167,14 @@ body, .split-page, .linktree-page {
     border-bottom: 2px solid #ffffff;
 }
 
-/* Увеличиваем отступ только для второго info-section (Избранное) */
-.profile-section + .info-section + .info-section {
+.selected-section {
     padding: 16px 16px 32px 16px;
+}
+
+@media (max-width: 768px) {
+    .selected-section {
+        padding: 16px 0;
+    }
 }
 
 /* ✅ Убираем линию у первого info-section (блок ролей),
