@@ -109,8 +109,7 @@
       "mediaMode": "cover",
       "media": [
         { "type": "img", "src": "cases/2023svoxternii/svoxternii (2).jpg", "alt": "Сквозь Тернии 1" },
-        { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" },
-        { "type": "img", "src": "cases/2023svoxternii/svoxternii (11).jpg", "alt": "Сквозь Тернии 1" }
+        { "type": "img", "src": "cases/2023svoxternii/svoxternii (1).jpg", "alt": "Сквозь Тернии 1" }
       ]
     },
     {
@@ -129,8 +128,7 @@
         { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (15).jpg", "alt": "img" },
         { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (12).jpg", "alt": "img" },
         { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (19).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (3).jpg", "alt": "img" },
-        { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (14).jpg", "alt": "img" }
+        { "type": "img", "src": "cases/20242025IzhLocalGigs/LocalGig (3).jpg", "alt": "img" }
       ]
     },
     {
