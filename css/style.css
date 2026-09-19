@@ -1138,8 +1138,8 @@ body, .split-page, .linktree-page {
     }
 
     /* === Скрываем Selected, Linktree и Copyright на мобильных === */
-    .left-panel .info-section:nth-child(3),
-    .left-panel .info-section:last-of-type,
+    .left-panel .selected-section,
+    .left-panel .linktree-section,
     .left-panel .copyright {
         display: none !important;
     }
@@ -1665,4 +1665,15 @@ body, .split-page, .linktree-page {
     .project-description-content-wrapper > *:last-child {
         padding-bottom: 16px;
     }
+}
+
+/* Новый текстовый блок левой панели */
+.statement-section .section-text + .section-text {
+    margin-top: 12px; /* отступ между абзацами */
+}
+
+/* Если хотите текст «как в описании проектов» (светлее и свободнее) */
+.statement-section .section-text {
+    color: #efefef;
+    line-height: 1.5;
 }
