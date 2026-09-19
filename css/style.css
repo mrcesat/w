@@ -1679,14 +1679,14 @@ body, .split-page, .linktree-page {
 }
 
 /* =========================================
-   GRID: КВАДРАТЫ БЕЗ ОБРЕЗКИ (ФИНАЛ)
+   GRID: КВАДРАТЫ БЕЗ ОБРЕЗКИ (ФИНАЛ v2)
    ========================================= */
 
 .project-media-player.media-fit-grid {
-    container-type: size; /* позволяем мерить высоту плеера в cqh */
+    container-type: size; /* нужно для cqh */
 }
 
-/* Убираем внутренние отступы: сетка занимает весь плеер */
+/* Сетка без внутренних отступов */
 .project-media-player.media-fit-grid .media-stage {
     position: absolute !important;
     top: 0 !important;
@@ -1705,11 +1705,10 @@ body, .split-page, .linktree-page {
     display: none;
 }
 
-/* Квадраты возвращены, но колонка не шире высоты плеера (100cqh) */
+/* Колонки как раньше: auto-fit считает по 250px */
 .project-media-player.media-fit-grid .media-slider {
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 100cqh)) !important;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
     gap: 16px;
     position: relative !important;
     width: 100% !important;
@@ -1720,7 +1719,7 @@ body, .split-page, .linktree-page {
     transform: none !important;
 }
 
-/* Снова квадратная ячейка */
+/* Плитка: квадрат по собственной ширине, но не выше плеера */
 .project-media-player.media-fit-grid .media-slide {
     position: relative !important;
     top: auto !important;
@@ -1728,8 +1727,11 @@ body, .split-page, .linktree-page {
     right: auto !important;
     bottom: auto !important;
     width: 100% !important;
-    height: 0 !important;
-    padding-bottom: 100% !important;
+    max-width: 100cqh;     /* квадрат не может стать выше плеера */
+    aspect-ratio: 1 / 1;   /* квадрат вместо padding-трюка */
+    height: auto !important;
+    padding-bottom: 0 !important;
+    margin-inline: auto;   /* центрируем плитку в колонке */
     opacity: 1 !important;
     visibility: visible !important;
     transform: none !important;
@@ -1767,6 +1769,6 @@ body, .split-page, .linktree-page {
 
     .project-media-player.media-fit-grid .media-slide img,
     .project-media-player.media-fit-grid .media-slide video {
-        height: 100% !important; /* отменяем старые 200px */
+        height: 100% !important;
     }
 }
