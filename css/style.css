@@ -1621,3 +1621,24 @@ body, .split-page, .linktree-page {
         padding-bottom: 16px;
     }
 }
+
+/* =========================================
+   ФИКС: ЛИНИЯ МЕЖДУ ПЛЕЕРОМ И ОПИСАНИЕМ
+   ========================================= */
+
+/* Убираем линию с плеера — он не растягивается на всю высоту */
+.project-content .project-media-player {
+    border-right: none;
+}
+
+/* Переносим линию на описание — оно всегда тянется на всю высоту карточки */
+.project-content .project-description {
+    border-left: 2px solid #ffffff;
+}
+
+/* Мобильная версия: колонки друг под другом, вертикальная линия не нужна */
+@media (max-width: 768px) {
+    .project-content .project-description {
+        border-left: none;
+    }
+}
