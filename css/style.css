@@ -1727,7 +1727,7 @@ body, .split-page, .linktree-page {
     right: auto !important;
     bottom: auto !important;
     width: 100% !important;
-    max-width: 100cqh;     /* квадрат не может стать выше плеера */
+    max-width: calc(100cqh - 32px);     /* квадрат не может стать выше плеера */
     aspect-ratio: 1 / 1;   /* квадрат вместо padding-трюка */
     height: auto !important;
     padding-bottom: 0 !important;
@@ -1762,13 +1762,14 @@ body, .split-page, .linktree-page {
 
 /* Мобильная версия */
 @media (max-width: 768px) {
-    .project-media-player.media-fit-grid .media-slider {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 8px;
+    .project-media-player.media-fit-grid .media-stage {
+        top: 8px !important;
+        left: 8px !important;
+        right: 8px !important;
+        bottom: 8px !important;
     }
 
-    .project-media-player.media-fit-grid .media-slide img,
-    .project-media-player.media-fit-grid .media-slide video {
-        height: 100% !important;
+    .project-media-player.media-fit-grid .media-slide {
+        max-width: calc(100cqh - 16px);
     }
 }
