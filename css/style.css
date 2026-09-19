@@ -1143,10 +1143,16 @@ body, .split-page, .linktree-page {
     }
 
     /* === Скрываем Selected, Linktree и Copyright на мобильных === */
+    .left-panel .statement-section,
     .left-panel .selected-section,
-    .left-panel .linktree-section,
     .left-panel .copyright {
         display: none !important;
+    }
+
+    @media (max-width: 768px) {
+        .left-panel .linktree-section {
+            border-top: 2px solid #ffffff;
+        }
     }
 
     /* === Переключатель категорий — выходим за пределы padding === */
