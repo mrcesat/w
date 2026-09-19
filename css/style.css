@@ -1335,7 +1335,7 @@ body, .split-page, .linktree-page {
 
     /* Заголовок проекта (бегущая строка) */
     .project-title-text {
-        font-size: 20px !important; /* Было 45px */
+        font-size: 18px !important; /* Было 45px */
     }
 
     /* Контакты */
@@ -1788,5 +1788,32 @@ body, .split-page, .linktree-page {
     .project-media-player.media-fit-grid .media-slide img,
     .project-media-player.media-fit-grid .media-slide video {
         height: 100% !important;
+    }
+}
+
+/* =========================================
+   МОБИЛЬНЫЕ: ПОЛНАЯ ШИРИНА (FULL BLEED)
+   ========================================= */
+@media (max-width: 768px) {
+    /* Панели без боковых отступов — блоки на всю ширину */
+    .right-panel,
+    .left-panel {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /* Секции левой панели: текст с отступом, линии от края до края */
+    .profile-section,
+    .info-section,
+    .copyright {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    /* Описание проектов: текст с отступом, разделители на всю ширину */
+    .project-description > *,
+    .project-description-content-wrapper > * {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
     }
 }
