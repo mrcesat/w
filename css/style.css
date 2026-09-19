@@ -1521,3 +1521,105 @@ body, .split-page, .linktree-page {
     transition: all 0.3s ease;
     z-index: 1000; /* Чтобы кнопка была поверх всего, включая частицы */
 }
+
+/* =========================================
+   РАЗДЕЛИТЕЛЬНЫЕ ЛИНИИ ОПИСАНИЯ (паттерн .info-section)
+   ========================================= */
+
+/* --- ГЛАВНАЯ СТРАНИЦА --- */
+.project-description {
+    padding: 0; /* отступы переезжают на внутренние блоки */
+}
+
+.project-description > * {
+    padding-left: 32px;  /* бывший левый отступ контейнера */
+    padding-right: 16px; /* бывший правый отступ контейнера */
+}
+
+.project-description > p:first-of-type {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description > .role-text {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description > .soft-list {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description > .workflow-section {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    margin: 0;
+    border-top: none; /* убираем старую тонкую линию */
+}
+
+/* --- СТРАНИЦА ПРОЕКТА --- */
+.project-description-content-wrapper {
+    padding: 0;
+}
+
+.project-description-content-wrapper > * {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.project-description-content-wrapper > .description-content {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description-content-wrapper > .description-content p:last-child {
+    margin-bottom: 0;
+}
+
+.project-description-content-wrapper > .role-text {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description-content-wrapper > .soft-list {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description-content-wrapper > .workflow-section {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    margin: 0;
+    border-top: none;
+}
+
+/* --- МОБИЛЬНАЯ ВЕРСИЯ: линии до краёв панели --- */
+@media (max-width: 768px) {
+    .project-description > *,
+    .project-description-content-wrapper > * {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .project-description > p:first-of-type,
+    .project-description-content-wrapper > .description-content {
+        padding-top: 16px;
+    }
+
+    .project-description > .workflow-section,
+    .project-description-content-wrapper > .workflow-section {
+        padding-bottom: 16px;
+    }
+}
