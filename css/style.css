@@ -1335,17 +1335,17 @@ body, .split-page, .linktree-page {
 
     /* Заголовок проекта (бегущая строка) */
     .project-title-text {
-        font-size: 28px !important; /* Было 45px */
+        font-size: 20px !important; /* Было 45px */
     }
 
     /* Контакты */
     .contact-link {
-        font-size: 12px !important; /* Было 13px */
+        font-size: 16px !important; /* Было 13px */
     }
 
     /* Описание ролей */
     .role-list li {
-        font-size: 14px !important; /* Было 14px */
+        font-size: 16px !important; /* Было 14px */
     }
 
     /* Заголовок секции (SELECTED WORKS) */
@@ -1355,12 +1355,12 @@ body, .split-page, .linktree-page {
 
     /* Ссылки на проекты */
     .project-list-link {
-        font-size: 14px !important; /* Было 14px */
+        font-size: 16px !important; /* Было 14px */
     }
 
     /* Описание проекта */
     .project-description p {
-        font-size: 13px !important; /* Было 14px */
+        font-size: 16px !important; /* Было 14px */
     }
 
     /* Кнопки переключателя */
@@ -1370,35 +1370,35 @@ body, .split-page, .linktree-page {
 
     /* Текст в плеере (workflow) */
     .workflow-block-title {
-        font-size: 13px !important; /* Было 14px */
+        font-size: 14px !important; /* Было 14px */
     }
 
     .workflow-block-desc {
-        font-size: 12px !important; /* Было 13px */
+        font-size: 14px !important; /* Было 13px */
     }
 
     /* === РАЗМЕРЫ ТЕКСТА РОЛЕЙ И СОФТА НА МОБИЛЬНЫХ === */
 
     /* Роль в списке проектов (главная) */
     .project-description .role-text {
-        font-size: 12px !important;
+        font-size: 14px !important;
         margin-top: 12px;
     }
 
     /* Список софта в списке проектов (главная) */
     .project-description .soft-list li {
-        font-size: 12px !important;
+        font-size: 14px !important;
         padding: 1px 0;
     }
 
     /* Роль на странице проекта */
     .project-description-content-wrapper .role-text {
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
 
     /* Список софта на странице проекта */
     .project-description-content-wrapper .soft-list li {
-        font-size: 12px !important;
+        font-size: 14px !important;
         padding: 1px 0;
     }
 
