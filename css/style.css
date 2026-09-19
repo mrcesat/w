@@ -402,71 +402,123 @@ body, .split-page, .linktree-page {
    РАЗДЕЛИТЕЛЬНЫЕ ЛИНИИ В ОПИСАНИИ ПРОЕКТА
    ========================================= */
 
-/* Описание проекта на главной странице */
+/* Описание проекта на главной странице — линии от края до края */
+.project-description {
+    position: relative;
+}
+
 .project-description > p:first-of-type {
     margin-bottom: 16px;
     padding-bottom: 16px;
-    border-bottom: 2px solid #ffffff;
+    position: relative;
+}
+
+.project-description > p:first-of-type::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #ffffff;
 }
 
 .project-description .role-text {
     margin-top: 16px;
     margin-bottom: 16px;
     padding-bottom: 16px;
-    border-bottom: 2px solid #ffffff;
+    position: relative;
+}
+
+.project-description .role-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #ffffff;
 }
 
 .project-description .soft-list {
     margin-top: 16px;
     margin-bottom: 16px;
     padding-bottom: 16px;
-    border-bottom: 2px solid #ffffff;
+    position: relative;
 }
 
-/* Убираем нижнюю границу у последнего элемента (workflow) */
-.project-description .workflow-section {
-    margin-top: 16px;
+.project-description .soft-list::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #ffffff;
 }
 
-/* Описание проекта на странице проекта */
+/* Описание проекта на странице проекта — линии от края до края */
+.project-description-content-wrapper {
+    position: relative;
+}
+
 .project-description-content-wrapper .description-content > p:first-of-type {
     margin-bottom: 16px;
     padding-bottom: 16px;
-    border-bottom: 2px solid #ffffff;
+    position: relative;
+}
+
+.project-description-content-wrapper .description-content > p:first-of-type::after {
+    content: '';
+    position: absolute;
+    left: -24px; /* Компенсируем padding родителя */
+    right: -24px;
+    bottom: 0;
+    height: 2px;
+    background: #ffffff;
 }
 
 .project-description-content-wrapper .role-text {
     margin-top: 16px;
     margin-bottom: 16px;
     padding-bottom: 16px;
-    border-bottom: 2px solid #ffffff;
+    position: relative;
+}
+
+.project-description-content-wrapper .role-text::after {
+    content: '';
+    position: absolute;
+    left: -24px; /* Компенсируем padding родителя */
+    right: -24px;
+    bottom: 0;
+    height: 2px;
+    background: #ffffff;
 }
 
 .project-description-content-wrapper .soft-list {
     margin-top: 16px;
     margin-bottom: 16px;
     padding-bottom: 16px;
-    border-bottom: 2px solid #ffffff;
+    position: relative;
+}
+
+.project-description-content-wrapper .soft-list::after {
+    content: '';
+    position: absolute;
+    left: -24px; /* Компенсируем padding родителя */
+    right: -24px;
+    bottom: 0;
+    height: 2px;
+    background: #ffffff;
 }
 
 /* Мобильная адаптация */
 @media (max-width: 768px) {
-    .project-description > p:first-of-type,
-    .project-description-content-wrapper .description-content > p:first-of-type {
-        padding-bottom: 12px;
-        margin-bottom: 12px;
-    }
-
-    .project-description .role-text,
-    .project-description-content-wrapper .role-text {
-        padding-bottom: 12px;
-        margin-bottom: 12px;
-    }
-
-    .project-description .soft-list,
-    .project-description-content-wrapper .soft-list {
-        padding-bottom: 12px;
-        margin-bottom: 12px;
+    .project-description-content-wrapper .description-content > p:first-of-type::after,
+    .project-description-content-wrapper .role-text::after,
+    .project-description-content-wrapper .soft-list::after {
+        left: -16px; /* На мобильных padding меньше */
+        right: -16px;
     }
 }
 
