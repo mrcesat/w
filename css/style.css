@@ -288,8 +288,6 @@ body, .split-page, .linktree-page {
     border-bottom: 2px solid #ffffff !important;
 }
 
-/* УДАЛИТЕ старый .project-title и добавьте: */
-
 /* Контейнер бегущей строки */
 .marquee-container {
     overflow: hidden;
@@ -398,6 +396,50 @@ body, .split-page, .linktree-page {
     color: #c8c8c8;
     padding: 2px 0;
     line-height: 1.4;
+}
+
+/* Разделительные линии в описании проекта */
+.project-description > p:first-of-type {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.project-description .role-text {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.project-description .soft-list {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Убираем нижнюю границу у последнего элемента (workflow) */
+.project-description .workflow-section {
+    margin-top: 16px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .project-description > p:first-of-type {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .project-description .role-text {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .project-description .soft-list {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
 }
 
 /* =========================================
