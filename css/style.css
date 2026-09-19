@@ -399,6 +399,78 @@ body, .split-page, .linktree-page {
 }
 
 /* =========================================
+   РАЗДЕЛИТЕЛЬНЫЕ ЛИНИИ В ОПИСАНИИ ПРОЕКТА
+   ========================================= */
+
+/* Описание проекта на главной странице */
+.project-description > p:first-of-type {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description .role-text {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description .soft-list {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Убираем нижнюю границу у последнего элемента (workflow) */
+.project-description .workflow-section {
+    margin-top: 16px;
+}
+
+/* Описание проекта на странице проекта */
+.project-description-content-wrapper .description-content > p:first-of-type {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description-content-wrapper .role-text {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.project-description-content-wrapper .soft-list {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .project-description > p:first-of-type,
+    .project-description-content-wrapper .description-content > p:first-of-type {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .project-description .role-text,
+    .project-description-content-wrapper .role-text {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .project-description .soft-list,
+    .project-description-content-wrapper .soft-list {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+/* =========================================
    ПЕРЕКЛЮЧАТЕЛЬ КАТЕГОРИЙ (ПРАВАЯ ПАНЕЛЬ)
    ========================================= */
 
