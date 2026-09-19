@@ -1670,6 +1670,7 @@ body, .split-page, .linktree-page {
 /* Новый текстовый блок левой панели */
 .statement-section .section-text + .section-text {
     margin-top: 12px; /* отступ между абзацами */
+    border-top: 2px solid #ffffff;
 }
 
 /* Если хотите текст «как в описании проектов» (светлее и свободнее) */
