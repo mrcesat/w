@@ -110,7 +110,7 @@ body, .split-page, .linktree-page {
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: none;
     transition: opacity 0.3s ease;
 }
 
@@ -205,7 +205,7 @@ body, .split-page, .linktree-page {
 .project-list li {
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* ✅ Исправлено с rgba(0,0,0,0.2), иначе не видно на чёрном */
+    border-bottom: none; /* ✅ Исправлено с rgba(0,0,0,0.2), иначе не видно на чёрном */
 }
 
 .project-list li:last-child {
