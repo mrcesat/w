@@ -1642,3 +1642,27 @@ body, .split-page, .linktree-page {
         border-left: none;
     }
 }
+
+/* =========================================
+   УБИРАЕМ ПОСЛЕДНЮЮ ЛИНИЮ В ОПИСАНИИ
+   ========================================= */
+
+/* Главная страница: у последнего блока описания линии нет */
+.project-description > *:last-child {
+    border-bottom: none;
+    padding-bottom: 32px; /* сохраняем нижний отступ карточки */
+}
+
+/* Страница проекта: то же самое */
+.project-description-content-wrapper > *:last-child {
+    border-bottom: none;
+    padding-bottom: 32px;
+}
+
+/* Мобильная версия: отступ поменьше */
+@media (max-width: 768px) {
+    .project-description > *:last-child,
+    .project-description-content-wrapper > *:last-child {
+        padding-bottom: 16px;
+    }
+}
