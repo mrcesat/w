@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function mountGlobalOverlay() {
     if (document.getElementById('global-overlay')) return;
     try {
-        const res = await fetch(SITE_ROOT + 'mrcesat_splashpluses.svg');
+        const res = await fetch(SITE_ROOT + 'splash.svg');
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const svgText = await res.text();
         document.body.insertAdjacentHTML(
