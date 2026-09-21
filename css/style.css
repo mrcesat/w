@@ -20,7 +20,7 @@ body, .split-page, .linktree-page {
     overflow: hidden;
     background-color: var(--bg-color);
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font);
 }
 
 .split-container {
@@ -184,7 +184,7 @@ body, .split-page, .linktree-page {
 }
 
 .section-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -316,7 +316,7 @@ body, .split-page, .linktree-page {
 }
 
 .marquee-content span {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-size: 45px;
     font-weight: 700;
     color: #ffffff;
@@ -426,7 +426,7 @@ body, .split-page, .linktree-page {
 .switcher-link {
     flex: 1;
     padding: 8px 8px; /* ✅ Было 20px 16px, уменьшено в 2 раза */
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-size: 10px;
     font-weight: 500;
     text-transform: uppercase;
@@ -506,7 +506,7 @@ body, .split-page, .linktree-page {
     cursor: pointer;
     z-index: 101;
     transition: all 0.3s ease;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font);
 }
 
 .toggle-panel-btn:hover {
@@ -572,7 +572,7 @@ body, .split-page, .linktree-page {
 }
 
 .project-title-text {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-size: 45px;
     font-weight: 500;
     color: #ffffff;
@@ -1060,7 +1060,7 @@ body, .split-page, .linktree-page {
 }
 
 .workflow-block-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
@@ -1439,7 +1439,7 @@ body, .split-page, .linktree-page {
     min-height: 100vh;
     padding: 40px 20px;
     text-align: center;
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: var(--main-font);
     background-color: var(--bg-color); /* ← ДОБАВИТЬ ЭТО */ /* ← И ЭТО для надёжности */
 }
 
@@ -1511,7 +1511,7 @@ body, .split-page, .linktree-page {
     color: #555;
     font-size: 12px !important; /* 12px читается хорошо, 6px — нет */
     font-weight: 400 !important; /* Сбрасываем жирность, если она наследуется от body */
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: var(--main-font);
 }
 
 /* Базовый стиль для обеих кнопок */
