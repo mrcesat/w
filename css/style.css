@@ -185,7 +185,7 @@ body, .split-page, .linktree-page {
 
 .section-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -1037,13 +1037,11 @@ body, .split-page, .linktree-page {
     border: 1px solid #ffffff;  /* ✅ Белая обводка */
     border-radius: 0px;
     padding: 16px;
-    transition: all 0.3s ease;
 }
 
 .workflow-block:hover .workflow-block-content {
     background: var(--bg-color);
     border-color: #ffffff;
-    transform: translateX(4px);
 }
 
 .workflow-step {
