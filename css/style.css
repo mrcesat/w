@@ -200,6 +200,12 @@ body, .split-page, .linktree-page {
     margin: 0;
 }
 
+.statement-section .section-text {
+    font-size: 16px;   /* или 12px / 15px — как нужно */
+    color: #efefef;
+    line-height: 1.5;
+}
+
 /* Списки проектов */
 .project-list {
     list-style: none;
@@ -1096,6 +1102,11 @@ body, .split-page, .linktree-page {
    ========================================= */
 
 @media (max-width: 768px) {
+
+    .statement-section .section-text {
+        font-size: 14px !important;
+    }
+
     /* === КРИТИЧНО: box-sizing для всех элементов === */
     *, *::before, *::after {
         box-sizing: border-box !important;
