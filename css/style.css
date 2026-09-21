@@ -88,11 +88,11 @@ body, .split-page, .linktree-page {
 
 .profile-year,
 .profile-location {
-    font-size: 13px;
+    font-size: 12px;
     color: #888;
     margin: 0;
     line-height: 1.4;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 /* Контакты */
