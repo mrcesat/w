@@ -201,7 +201,7 @@ body, .split-page, .linktree-page {
 }
 
 .statement-section .section-text {
-    font-size: 16px;   /* или 12px / 15px — как нужно */
+    font-size: 18px;   /* или 12px / 15px — как нужно */
     color: #efefef;
     line-height: 1.5;
 }
