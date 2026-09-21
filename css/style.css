@@ -1,6 +1,6 @@
 :root {
     --bg-color: #0c0c0c; /* Основной цвет фона сайта */
-    --main-font: "Pliant", sans-serif; /* ← ДОБАВИТЬ ЭТО */
+    --main-font: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ← тело: Arial со страховкой */
 }
 
 /* Глобальное применение шрифта и его настроек ко всему сайту */
