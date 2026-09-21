@@ -1842,8 +1842,10 @@ body, .split-page, .linktree-page {
     right: 16px;              /* или left: 16px / по центру — см. ниже */
     z-index: 9999;            /* поверх всего (выше nav-btn = 1000) */
     color: #ffffff;           /* currentColor в SVG наследует это */
-    pointer-events: none;     /* НЕ перехватывает клики по контенту под ним */
+    pointer-events: auto;    /* было none — включаем клики */
     line-height: 0;           /* убирает лишний базовый отступ инлайн-SVG */
+    display: block;          /* <a> по умолчанию inline — выравниваем коробку */
+    text-decoration: none;   /* без подчёркивания ссылки */
 }
 
 .global-overlay-svg {

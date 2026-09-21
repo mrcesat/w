@@ -287,7 +287,9 @@ async function mountGlobalOverlay() {
         const svgText = await res.text();
         document.body.insertAdjacentHTML(
             'beforeend',
-            `<div id="global-overlay" class="global-overlay">${svgText}</div>`
+            `<a id="global-overlay" class="global-overlay"
+                href="https://t.me/mrcecv"
+                aria-label="link">${svgText}</a>`
         );
     } catch (e) {
         console.error('Не удалось загрузить splash.svg:', e);
