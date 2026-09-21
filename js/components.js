@@ -84,7 +84,7 @@ async function renderProjectsList(activeCategory = null) {
 
             let roleHtml = '';
             if (project.role) {
-                roleHtml += `<p class="role-text">Роль: ${project.role}</p>`;
+                roleHtml += `<p class="role-text">${project.role}</p>`;
             }
 
             let softHtml = '';
