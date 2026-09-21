@@ -181,6 +181,8 @@ if (!document.getElementById('marquee-keyframes')) {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Загрузка компонентов...');
 
+    mountGlobalOverlay();
+
     loadComponent('.left-panel', 'components/left-panel.html');
 
     const isProjectView = document.body.classList.contains('project-view-page');
@@ -249,8 +251,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'project-soft-block': softBlockHtml,
             'project-workflow-block': workflowBlockHtml
         });
-
-        mountGlobalOverlay();
 
         if (projectConfig['project-color']) {
             document.body.style.setProperty('--project-bg', projectConfig['project-color']);
