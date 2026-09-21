@@ -1832,3 +1832,40 @@ body, .split-page, .linktree-page {
 .selected-section .section-title {
     text-transform: none;
 }
+
+/* =========================================
+   ГЛОБАЛЬНЫЙ SVG-ОВЕРЛЕЙ ВНИЗУ ЭКРАНА
+   ========================================= */
+.global-overlay {
+    position: fixed;          /* прибит к окну, не скроллится */
+    bottom: 16px;             /* отступ от нижнего края */
+    right: 16px;              /* или left: 16px / по центру — см. ниже */
+    z-index: 9999;            /* поверх всего (выше nav-btn = 1000) */
+    color: #ffffff;           /* currentColor в SVG наследует это */
+    pointer-events: none;     /* НЕ перехватывает клики по контенту под ним */
+    line-height: 0;           /* убирает лишний базовый отступ инлайн-SVG */
+}
+
+.global-overlay-svg {
+    width: 120px;             /* размер объекта */
+    height: auto;
+    display: block;
+}
+
+/* варианты размещения — раскомментируйте нужный */
+/* по центру снизу: */
+
+.global-overlay { left: 50%; right: auto; transform: translateX(-50%); }
+
+/* на всю ширину (например, линия-разделитель): */
+/*
+.global-overlay { left: 0; right: 0; bottom: 0; }
+.global-overlay-svg { width: 100%; }
+*/
+
+/* на мобильных часто мешает — при желании скрыть или уменьшить */
+@media (max-width: 768px) {
+    .global-overlay { bottom: 8px; right: 8px; }
+    .global-overlay-svg { width: 80px; }
+    /* или полностью: display: none; */
+}

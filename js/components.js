@@ -250,6 +250,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'project-workflow-block': workflowBlockHtml
         });
 
+        mountGlobalOverlay();
+
         if (projectConfig['project-color']) {
             document.body.style.setProperty('--project-bg', projectConfig['project-color']);
             console.log(`Цвет установлен: ${projectConfig['project-color']}`);
@@ -272,3 +274,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log('Инициализация завершена');
 });
+
+// ============================================
+// ГЛОБАЛЬНЫЙ SVG-ОВЕРЛЕЙ (внизу экрана, поверх всего)
+// ============================================
+
+// ↓↓↓ ЗАМЕНИТЬ ЭТУ СТРОКУ НА СВОЙ SVG ↓↓↓
+const GLOBAL_OVERLAY_SVG = `
+<svg class="global-overlay-svg" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- пример: угловая скобка справа внизу -->
+    <path d="M4 36 H36 V4" fill="none" stroke="currentColor" stroke-width="2"/>
+    <circle cx="36" cy="4" r="3" fill="currentColor"/>
+</svg>`;
+
+function mountGlobalOverlay() {
+    // защита от двойной вставки
+    if (document.getElementById('global-overlay')) return;
+
+    const wrap = document.createElement('div');
+    wrap.id = 'global-overlay';
+    wrap.className = 'global-overlay';
+    wrap.innerHTML = GLOBAL_OVERLAY_SVG;
+    document.body.insertAdjacentHTML('beforeend', wrap.outerHTML);
+}
