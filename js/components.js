@@ -1,4 +1,5 @@
 const BASE_PATH = window.location.pathname.includes('/cases/') ? '../' : './';
+const SITE_ROOT = '/w/';
 
 async function loadComponent(selector, url, params = {}) {
     try {
@@ -281,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function mountGlobalOverlay() {
     if (document.getElementById('global-overlay')) return;
     try {
-        const res = await fetch(SITE_ROOT + 'mrce_splashpluses.svg');
+        const res = await fetch(SITE_ROOT + 'mrcesat_splashpluses.svg');
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const svgText = await res.text();
         document.body.insertAdjacentHTML(
