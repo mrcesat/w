@@ -1019,13 +1019,7 @@ body, .split-page, .linktree-page {
 }
 
 .workflow-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #ffffff;
-    margin: 0 0 24px 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    display: none;
 }
 
 .workflow-diagram {
@@ -1833,4 +1827,9 @@ body, .split-page, .linktree-page {
         padding-left: 16px !important;
         padding-right: 16px !important;
     }
+}
+
+/* Заголовок «Избранное» — без капслока */
+.selected-section .section-title {
+    text-transform: none;
 }
