@@ -1838,7 +1838,7 @@ body, .split-page, .linktree-page {
    ========================================= */
 .global-overlay {
     position: fixed;          /* прибит к окну, не скроллится */
-    bottom: 16px;             /* отступ от нижнего края */
+    bottom: 24px;             /* отступ от нижнего края */
     right: 16px;              /* или left: 16px / по центру — см. ниже */
     z-index: 9999;            /* поверх всего (выше nav-btn = 1000) */
     color: #ffffff;           /* currentColor в SVG наследует это */
