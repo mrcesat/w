@@ -1848,8 +1848,9 @@ body, .split-page, .linktree-page {
     text-decoration: none;   /* без подчёркивания ссылки */
 }
 
-.global-overlay-svg {
-    width: 100px;             /* размер объекта */
+/* стало — бьёт по корневому svg внутри обёртки, класс не нужен */
+.global-overlay svg {
+    width: 150px;
     height: auto;
     display: block;
 }
