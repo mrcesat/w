@@ -1865,9 +1865,18 @@ body, .split-page, .linktree-page {
 .global-overlay-svg { width: 100%; }
 */
 
-/* на мобильных часто мешает — при желании скрыть или уменьшить */
 @media (max-width: 768px) {
-    .global-overlay { bottom: 8px; right: 8px; }
-    .global-overlay-svg { width: 80px; }
-    /* или полностью: display: none; */
+    .global-overlay {
+        left: 50%;
+        right: auto;              /* ОБЯЗАТЕЛЬНО: иначе ширина растягивается между left и right */
+        bottom: 12px;
+        transform: translateX(-50%);
+    }
+
+    /* размер через тег, а не через класс — класс в файле отсутствует */
+    .global-overlay svg {
+        width: 96px;              /* подберите под вкус: 72–120px */
+        height: auto;
+        display: block;
+    }
 }
