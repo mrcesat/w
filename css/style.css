@@ -1849,7 +1849,7 @@ body, .split-page, .linktree-page {
 }
 
 .global-overlay-svg {
-    width: 150px;             /* размер объекта */
+    width: 100px;             /* размер объекта */
     height: auto;
     display: block;
 }
