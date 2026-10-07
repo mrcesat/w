@@ -1,5 +1,6 @@
 const BASE_PATH = window.location.pathname.includes('/cases/') ? '../' : './';
 const SITE_ROOT = '/w/';
+const SHOW_GLOBAL_OVERLAY = false;
 
 async function loadComponent(selector, url, params = {}) {
     try {
@@ -182,7 +183,7 @@ if (!document.getElementById('marquee-keyframes')) {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Загрузка компонентов...');
 
-    mountGlobalOverlay();
+    if (SHOW_GLOBAL_OVERLAY) mountGlobalOverlay();
 
     loadComponent('.left-panel', 'components/left-panel.html');
 
