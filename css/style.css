@@ -1899,3 +1899,17 @@ body, .split-page, .linktree-page {
     .left-panel .splash-section { display: none; }
 }
 */
+
+/* =========================================
+   Ч/Б ПРЕВЬЮ В СПИСКЕ ПРОЕКТОВ (ГЛАВНАЯ)
+   ========================================= */
+.projects-list .project-media-player img,
+.projects-list .project-media-player video {
+    filter: grayscale(100%);
+    transition: filter 0.4s ease;
+}
+
+.projects-list .project-item:hover .project-media-player img,
+.projects-list .project-item:hover .project-media-player video {
+    filter: grayscale(0%);
+}
