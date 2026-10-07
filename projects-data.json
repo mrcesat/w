@@ -89,12 +89,13 @@
       "playerHeight": 500,
       "mediaMode": "cover",
       "media": [
-        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes (6).jpg", "alt": "Middle Notes 1" },
-        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes (2).jpg", "alt": "Middle Notes 1" },
-        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes (8).jpg", "alt": "Middle Notes 1" },
-        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes (7).jpg", "alt": "Middle Notes 1" },
-        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes (5).jpg", "alt": "Middle Notes 1" },
-        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes (4).jpg", "alt": "Middle Notes 1" }
+        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes+(6).jpg", "alt": "img" },
+        { "type": "video", "src": "cases/2026MiddleNotes/middlenotes26.mp4", "alt": "video" },
+        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes+(2).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes+(8).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes+(7).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes+(5).jpg", "alt": "img" },
+        { "type": "img", "src": "cases/2026MiddleNotes/middleNotes+(4).jpg", "alt": "img" }
       ]
     },
     {
