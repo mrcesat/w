@@ -1881,3 +1881,21 @@ body, .split-page, .linktree-page {
         display: block;
     }
 }
+
+/* Splash-вектор в левой панели */
+.splash-section {
+    padding: 24px 16px 16px;
+    text-align: center;        /* центрируем картинку */
+}
+
+.panel-splash {
+    width: 120px;              /* размер под вкус */
+    height: auto;
+    display: inline-block;
+}
+
+/* если на мобильных не нужен — раскомментируйте:
+@media (max-width: 768px) {
+    .left-panel .splash-section { display: none; }
+}
+*/
